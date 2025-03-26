@@ -42,9 +42,11 @@ htmlcov/
 .cache
 nosetests.xml
 coverage.xml
+.pypirc
 *.cover
 .hypothesis/
 .pytest_cache/
+venv/
 
 # Environments
 .env
@@ -60,3 +62,5 @@ venv.bak/
 .vscode/
 *.swp
 *.swo
+
+build.sh

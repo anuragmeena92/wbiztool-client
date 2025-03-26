@@ -10,7 +10,7 @@ with open(os.path.join('wbiztool_client', '__init__.py'), 'r') as f:
     if version_match:
         version = version_match.group(1)
     else:
-        version = '1.0.0'  # Updated version
+        version = '1.0.1'  # Updated version
 
 # Read the contents of README.md
 with open('README.md', 'r', encoding='utf-8') as f:
@@ -50,5 +50,7 @@ setup(
         'Documentation': 'https://wbiztool.com/docs/',
         'Source': 'https://github.com/anuragmeena/wbiztool-client',
         'Tracker': 'https://github.com/anuragmeena/wbiztool-client/issues',
+        'Official Website': 'https://wbiztool.com',
+        'Support': 'https://wbiztool.com/contact',
     },
 ) 

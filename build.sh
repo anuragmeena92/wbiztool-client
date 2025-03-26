@@ -7,12 +7,12 @@ rm -rf build/ dist/ *.egg-info/
 
 # Install required build tools
 echo "Installing build tools..."
-pip install --upgrade pip
-pip install --upgrade setuptools wheel twine
+pip3 install --upgrade pip
+pip3 install --upgrade setuptools wheel twine
 
 # Build the package
 echo "Building the package..."
-python setup.py sdist bdist_wheel
+python3 setup.py sdist bdist_wheel
 
 # Display the built packages
 echo -e "\nBuilt packages:"

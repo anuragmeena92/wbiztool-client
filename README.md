@@ -1,6 +1,12 @@
 # WbizTool Client
 
-A Python client library for the WbizTool API, making it easy to integrate WhatsApp messaging capabilities into your Python applications.
+A Python client library for the [WbizTool](https://wbiztool.com) API, making it easy to integrate WhatsApp messaging capabilities into your Python applications.
+
+## About WbizTool
+
+[WbizTool](https://wbiztool.com) is a powerful platform that provides WhatsApp API integration for businesses. With WbizTool, you can automate your WhatsApp messaging workflow and engage with your customers more effectively.
+
+Visit [wbiztool.com](https://wbiztool.com) to create an account and get your API credentials.
 
 ## Installation
 
@@ -10,7 +16,7 @@ pip install wbiztool-client
 
 ## Authentication
 
-You'll need an API key and client ID from your WbizTool account:
+You'll need an API key and client ID from your [WbizTool account](https://wbiztool.com/login):
 
 1. Log in to your WbizTool account
 2. Go to API Keys section
@@ -306,6 +312,12 @@ try:
 except ValueError as e:
     print(f"Credential error: {e}")
 ```
+
+## Additional Resources
+
+- [WbizTool Official Website](https://wbiztool.com)
+- [API Documentation](https://wbiztool.com/docs)
+- [Support](https://wbiztool.com/contact)
 
 ## License
 
